@@ -1,0 +1,187 @@
+{
+  "products": [
+    {
+      "id": "pack-startup",
+      "name": "Pack Startup",
+      "category": "Paquetes",
+      "tagline": "Perfecto para emprendedores",
+      "description": "El paquete ideal para startups y nuevos emprendimientos que necesitan una presencia digital profesional desde el primer día.",
+      "image": "/assets/images/products/pack-startup.jpg",
+      "price": {
+        "regular": 3500,
+        "promotional": 2499,
+        "currency": "EUR"
+      },
+      "discount": 29,
+      "featured": true,
+      "promoted": true,
+      "includes": [
+        "Sitio web responsive (hasta 5 páginas)",
+        "Diseño personalizado",
+        "Optimización SEO básica",
+        "Formulario de contacto",
+        "Integración con redes sociales",
+        "SSL y hosting por 1 año",
+        "Google Analytics configurado",
+        "3 meses de soporte técnico"
+      ],
+      "deliveryTime": "2-3 semanas",
+      "badge": "¡OFERTA!"
+    },
+    {
+      "id": "pack-business",
+      "name": "Pack Business",
+      "category": "Paquetes",
+      "tagline": "Para empresas en crecimiento",
+      "description": "Solución completa para empresas que buscan expandir su presencia digital con funcionalidades avanzadas y mayor alcance.",
+      "image": "/assets/images/products/pack-business.jpg",
+      "price": {
+        "regular": 6500,
+        "promotional": 4999,
+        "currency": "EUR"
+      },
+      "discount": 23,
+      "featured": true,
+      "promoted": true,
+      "includes": [
+        "Todo lo del Pack Startup",
+        "Hasta 15 páginas",
+        "Blog con gestor de contenidos",
+        "Optimización SEO avanzada",
+        "Chat en vivo",
+        "Newsletter/Email marketing",
+        "Panel de administración",
+        "Integración con CRM",
+        "6 meses de soporte técnico",
+        "Capacitación del equipo"
+      ],
+      "deliveryTime": "4-6 semanas",
+      "badge": "MÁS POPULAR"
+    },
+    {
+      "id": "pack-enterprise",
+      "name": "Pack Enterprise",
+      "category": "Paquetes",
+      "tagline": "Soluciones corporativas",
+      "description": "Paquete premium para grandes empresas que requieren soluciones tecnológicas robustas, escalables y con soporte dedicado.",
+      "image": "/assets/images/products/pack-enterprise.jpg",
+      "price": {
+        "regular": 15000,
+        "promotional": 12499,
+        "currency": "EUR"
+      },
+      "discount": 17,
+      "featured": true,
+      "promoted": false,
+      "includes": [
+        "Todo lo del Pack Business",
+        "Páginas ilimitadas",
+        "Aplicación web personalizada",
+        "API REST personalizada",
+        "Múltiples idiomas",
+        "Sistema de usuarios y permisos",
+        "Reportes y analíticas avanzadas",
+        "Integración con sistemas corporativos",
+        "Alta disponibilidad y balanceo de carga",
+        "12 meses de soporte premium",
+        "Gestor de cuentas dedicado"
+      ],
+      "deliveryTime": "8-12 semanas",
+      "badge": "PREMIUM"
+    },
+    {
+      "id": "app-mobile-basica",
+      "name": "App Móvil Básica",
+      "category": "Aplicaciones Móviles",
+      "tagline": "Tu negocio en el bolsillo",
+      "description": "Aplicación móvil híbrida con las funcionalidades esenciales para conectar con tus clientes desde sus smartphones.",
+      "image": "/assets/images/products/mobile-basic.jpg",
+      "price": {
+        "regular": 5500,
+        "promotional": 4299,
+        "currency": "EUR"
+      },
+      "discount": 22,
+      "featured": false,
+      "promoted": true,
+      "includes": [
+        "App híbrida iOS y Android",
+        "Hasta 8 pantallas",
+        "Diseño UI/UX profesional",
+        "Notificaciones push",
+        "Integración con API existente",
+        "Login con redes sociales",
+        "Panel de control web",
+        "Publicación en stores",
+        "3 meses de mantenimiento"
+      ],
+      "deliveryTime": "6-8 semanas",
+      "badge": "NUEVO"
+    },
+    {
+      "id": "ecommerce-completo",
+      "name": "E-commerce Completo",
+      "category": "Tiendas Online",
+      "tagline": "Vende 24/7",
+      "description": "Tienda online profesional completamente equipada para empezar a vender tus productos por internet de inmediato.",
+      "image": "/assets/images/products/ecommerce.jpg",
+      "price": {
+        "regular": 4500,
+        "promotional": 3499,
+        "currency": "EUR"
+      },
+      "discount": 22,
+      "featured": true,
+      "promoted": true,
+      "includes": [
+        "Tienda online responsive",
+        "Hasta 100 productos",
+        "Pasarela de pago integrada",
+        "Gestión de inventario",
+        "Carrito de compra",
+        "Cupones de descuento",
+        "Sistema de envíos",
+        "Emails transaccionales",
+        "Panel de administración",
+        "6 meses de soporte"
+      ],
+      "deliveryTime": "4-5 semanas",
+      "badge": "OFERTA LIMITADA"
+    },
+    {
+      "id": "consultoria-mensual",
+      "name": "Consultoría Mensual",
+      "category": "Servicios",
+      "tagline": "Asesoramiento continuo",
+      "description": "Servicio de consultoría tecnológica mensual para mantener tu infraestructura actualizada y optimizada.",
+      "image": "/assets/images/products/consulting.jpg",
+      "price": {
+        "regular": 2000,
+        "promotional": 1499,
+        "currency": "EUR",
+        "recurrence": "mes"
+      },
+      "discount": 25,
+      "featured": false,
+      "promoted": false,
+      "includes": [
+        "20 horas de consultoría al mes",
+        "Auditorías mensuales",
+        "Recomendaciones estratégicas",
+        "Análisis de rendimiento",
+        "Sesiones de planificación",
+        "Soporte prioritario",
+        "Documentación técnica",
+        "Acceso a equipo experto"
+      ],
+      "deliveryTime": "Inmediato",
+      "badge": null
+    }
+  ],
+  "promotions": {
+    "active": true,
+    "endDate": "2026-03-31",
+    "message": "¡Promoción especial! Hasta 30% de descuento en paquetes seleccionados",
+    "code": "PROMO2026"
+  }
+}

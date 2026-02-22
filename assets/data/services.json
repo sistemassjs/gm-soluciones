@@ -1,0 +1,142 @@
+{
+  "services": [
+    {
+      "id": "desarrollo-web",
+      "title": "Desarrollo Web",
+      "shortDescription": "Sitios web modernos y responsive",
+      "description": "Creamos sitios web y aplicaciones web de alta calidad utilizando las últimas tecnologías. Desde landing pages hasta aplicaciones web complejas con Angular, React o Vue.js.",
+      "icon": "🌐",
+      "image": "/assets/images/services/web-development.jpg",
+      "features": [
+        "Diseño responsive para todos los dispositivos",
+        "Optimización SEO y velocidad de carga",
+        "Progressive Web Apps (PWA)",
+        "Integración con APIs y servicios",
+        "Panel de administración personalizado",
+        "Hosting y mantenimiento"
+      ],
+      "technologies": ["Angular", "React", "Vue.js", "Node.js", "TypeScript"],
+      "pricing": {
+        "from": 2500,
+        "currency": "EUR",
+        "unit": "proyecto"
+      },
+      "featured": true
+    },
+    {
+      "id": "desarrollo-movil",
+      "title": "Desarrollo Móvil",
+      "shortDescription": "Apps nativas e híbridas",
+      "description": "Desarrollamos aplicaciones móviles nativas para iOS y Android, así como aplicaciones híbridas con tecnologías cross-platform como React Native y Flutter.",
+      "icon": "📱",
+      "image": "/assets/images/services/mobile-development.jpg",
+      "features": [
+        "Apps nativas iOS y Android",
+        "Desarrollo híbrido con React Native/Flutter",
+        "Integración con servicios cloud",
+        "Notificaciones push",
+        "Pagos in-app",
+        "Publicación en stores"
+      ],
+      "technologies": ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"],
+      "pricing": {
+        "from": 5000,
+        "currency": "EUR",
+        "unit": "proyecto"
+      },
+      "featured": true
+    },
+    {
+      "id": "consultoria-it",
+      "title": "Consultoría IT",
+      "shortDescription": "Asesoramiento tecnológico estratégico",
+      "description": "Ofrecemos servicios de consultoría tecnológica para ayudar a su empresa a tomar las mejores decisiones en términos de infraestructura, arquitectura de software y estrategia digital.",
+      "icon": "💼",
+      "image": "/assets/images/services/consulting.jpg",
+      "features": [
+        "Auditoría de sistemas actuales",
+        "Arquitectura de software",
+        "Estrategia de transformación digital",
+        "Optimización de procesos",
+        "Seguridad y compliance",
+        "Gestión de proyectos tecnológicos"
+      ],
+      "technologies": ["AWS", "Azure", "Google Cloud", "DevOps", "Kubernetes"],
+      "pricing": {
+        "from": 1500,
+        "currency": "EUR",
+        "unit": "mes"
+      },
+      "featured": false
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-commerce",
+      "shortDescription": "Tiendas online profesionales",
+      "description": "Desarrollamos tiendas online completas y personalizadas, con pasarelas de pago, gestión de inventario, sistema de envíos y todo lo necesario para vender por internet.",
+      "icon": "🛒",
+      "image": "/assets/images/services/ecommerce.jpg",
+      "features": [
+        "Catálogo de productos avanzado",
+        "Pasarelas de pago integradas",
+        "Sistema de gestión de pedidos",
+        "Integración con ERP/CRM",
+        "Marketing y analíticas",
+        "App móvil complementaria"
+      ],
+      "technologies": ["Shopify", "WooCommerce", "Magento", "Custom Solutions"],
+      "pricing": {
+        "from": 3500,
+        "currency": "EUR",
+        "unit": "proyecto"
+      },
+      "featured": true
+    },
+    {
+      "id": "software-medida",
+      "title": "Software a Medida",
+      "shortDescription": "Soluciones personalizadas",
+      "description": "Desarrollamos software a medida completamente personalizado para cubrir las necesidades específicas de su negocio. Sistemas de gestión, CRM, ERP y más.",
+      "icon": "⚙️",
+      "image": "/assets/images/services/custom-software.jpg",
+      "features": [
+        "Análisis de requerimientos",
+        "Diseño de arquitectura personalizada",
+        "Desarrollo ágil con sprints",
+        "Integración con sistemas existentes",
+        "Capacitación de usuarios",
+        "Soporte y evolución continua"
+      ],
+      "technologies": ["Java", "Python", ".NET", "PostgreSQL", "MongoDB"],
+      "pricing": {
+        "from": 8000,
+        "currency": "EUR",
+        "unit": "proyecto"
+      },
+      "featured": false
+    },
+    {
+      "id": "inteligencia-artificial",
+      "title": "Inteligencia Artificial",
+      "shortDescription": "IA y Machine Learning",
+      "description": "Implementamos soluciones de inteligencia artificial y machine learning para automatizar procesos, analizar datos y mejorar la toma de decisiones en su empresa.",
+      "icon": "🤖",
+      "image": "/assets/images/services/ai.jpg",
+      "features": [
+        "Análisis predictivo",
+        "Procesamiento de lenguaje natural",
+        "Visión por computadora",
+        "Chatbots inteligentes",
+        "Automatización de procesos",
+        "Análisis de datos avanzado"
+      ],
+      "technologies": ["TensorFlow", "PyTorch", "OpenAI", "Scikit-learn", "Python"],
+      "pricing": {
+        "from": 6000,
+        "currency": "EUR",
+        "unit": "proyecto"
+      },
+      "featured": false
+    }
+  ]
+}
