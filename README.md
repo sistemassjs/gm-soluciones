@@ -57,3 +57,19 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Deploy en GitHub Pages
+
+Este repositorio ya incluye un workflow para desplegar automáticamente en GitHub Pages cuando hay merge o push a `master` (el merge genera un push a `master`).
+
+- Workflow: `.github/workflows/deploy-pages.yml`
+- Build usado para Pages: `npm run build:github-pages`
+- Rama de publicación: `gh-pages`
+- URL esperada del sitio: `https://sistemassjs.github.io/gm-soluciones/`
+
+Si es la primera vez que se despliega:
+
+1. Ir a **Settings > Pages** en GitHub.
+2. En **Source**, seleccionar **Deploy from a branch**.
+3. Elegir rama **`gh-pages`** y carpeta **`/ (root)`**.
+4. Hacer push a `master` para disparar el workflow.
