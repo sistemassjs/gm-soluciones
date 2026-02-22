@@ -16,22 +16,19 @@ import { ContactService } from '../core/services/contact.service';
             <div class="col-span-1 md:col-span-2">
               <div class="flex items-center space-x-3 mb-4">
                 <img 
-                  [src]="companyInfo()!.logo" 
+                  [src]="companyInfo()!.logoMedium || companyInfo()!.logo" 
                   [alt]="companyInfo()!.name + ' Logo'"
-                  class="w-12 h-12"
+                  class="w-10 h-10 md:w-12 md:h-12 rounded-lg"
                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                <div class="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center" style="display: none;">
-                  <span class="text-white font-bold text-xl">GM</span>
+                <div class="w-10 h-10 md:w-12 md:h-12 bg-primary-600 rounded-lg flex items-center justify-center" style="display: none;">
+                  <span class="text-white font-bold text-lg md:text-xl">GM</span>
                 </div>
-                <span class="text-xl font-heading font-bold">
+                <span class="text-xl md:text-2xl font-heading font-bold">
                   {{ companyInfo()!.name }}
                 </span>
               </div>
-              <p class="text-gray-400 mb-4 max-w-md">
+              <p class="text-gray-400 mb-6 max-w-md">
                 {{ companyInfo()!.tagline }}
-              </p>
-              <p class="text-gray-400 text-sm mb-6">
-                {{ companyInfo()!.description }}
               </p>
               
               <!-- Social Media -->

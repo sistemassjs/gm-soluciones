@@ -8,7 +8,9 @@ import { ContactService } from '../core/services/contact.service';
   standalone: true,
   imports: [CommonModule],
   template: `
+    <div class="absolute inset-0 bg-gradient-to-bl from-primary-50/30 via-transparent to-secondary-50/10 pointer-events-none"></div>
     <section id="inicio" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-secondary-50 pt-20">
+
       <div class="max-w-6xl mx-auto px-6 lg:px-8">
         @if(companyInfo()) {
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -74,7 +76,7 @@ import { ContactService } from '../core/services/contact.service';
 export class HeroComponent {
   private dataService = inject(DataService);
   private contactService = inject(ContactService);
-  
+
   companyInfo = this.dataService.companyInfo;
 
   openWhatsApp(): void {

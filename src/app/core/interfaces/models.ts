@@ -7,7 +7,10 @@ export interface CompanyInfo {
   vision: string;
   founded: string;
   logo: string;
-  logoAlt: string;
+  logoSmall?: string;
+  logoMedium?: string;
+  logoLarge?: string;
+  logoXLarge?: string;
   contact: ContactInfo;
   social: SocialMedia;
   seo: SEOConfig;

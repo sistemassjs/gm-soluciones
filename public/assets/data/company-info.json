@@ -6,8 +6,11 @@
   "mission": "Proporcionar soluciones tecnológicas de vanguardia que impulsen el crecimiento y la eficiencia de nuestros clientes",
   "vision": "Ser la empresa de referencia en innovación tecnológica y desarrollo de software en la región",
   "founded": "2020",
-  "logo": "/assets/images/logo.svg",
-  "logoAlt": "/assets/images/logo-alt.svg",
+  "logo": "/assets/images/icon-192x192.png",
+  "logoSmall": "/assets/images/icon-64x64.png",
+  "logoMedium": "/assets/images/icon-128x128.png",
+  "logoLarge": "/assets/images/icon-256x256.png",
+  "logoXLarge": "/assets/images/icon-512x512.png",
   "contact": {
     "email": "contacto@solucionesgm.com",
     "phone": "+34 123 456 789",
@@ -34,6 +37,6 @@
       "software empresarial"
     ],
     "metaDescription": "SolucionesGM - Empresa líder en desarrollo de software y soluciones tecnológicas. Desarrollo web, apps móviles, consultoría IT y transformación digital.",
-    "ogImage": "/assets/images/og-image.jpg"
+    "ogImage": "/assets/images/icon-512x512.png"
   }
 }
