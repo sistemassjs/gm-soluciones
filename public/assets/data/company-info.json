@@ -1,0 +1,39 @@
+{
+  "name": "SolucionesGM",
+  "fullName": "Soluciones GM - Desarrollo y Tecnología",
+  "tagline": "Transformando ideas en soluciones tecnológicas",
+  "description": "Somos una empresa líder en desarrollo de software y soluciones tecnológicas innovadoras. Ofrecemos servicios de desarrollo web, aplicaciones móviles, consultoría IT y transformación digital para empresas de todos los tamaños.",
+  "mission": "Proporcionar soluciones tecnológicas de vanguardia que impulsen el crecimiento y la eficiencia de nuestros clientes",
+  "vision": "Ser la empresa de referencia en innovación tecnológica y desarrollo de software en la región",
+  "founded": "2020",
+  "logo": "/assets/images/logo.svg",
+  "logoAlt": "/assets/images/logo-alt.svg",
+  "contact": {
+    "email": "contacto@solucionesgm.com",
+    "phone": "+34 123 456 789",
+    "whatsapp": "+34123456789",
+    "address": "Calle Tecnología 123, 28001 Madrid, España"
+  },
+  "social": {
+    "facebook": "https://facebook.com/solucionesgm",
+    "twitter": "https://twitter.com/solucionesgm",
+    "linkedin": "https://linkedin.com/company/solucionesgm",
+    "instagram": "https://instagram.com/solucionesgm",
+    "github": "https://github.com/solucionesgm"
+  },
+  "seo": {
+    "keywords": [
+      "desarrollo de software",
+      "aplicaciones web",
+      "aplicaciones móviles",
+      "consultoría IT",
+      "transformación digital",
+      "desarrollo a medida",
+      "soluciones tecnológicas",
+      "programación",
+      "software empresarial"
+    ],
+    "metaDescription": "SolucionesGM - Empresa líder en desarrollo de software y soluciones tecnológicas. Desarrollo web, apps móviles, consultoría IT y transformación digital.",
+    "ogImage": "/assets/images/og-image.jpg"
+  }
+}

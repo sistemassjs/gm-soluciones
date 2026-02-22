@@ -1,1 +1,80 @@
+@import 'animate.css'
+
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@layer base
+  *
+    scroll-behavior: smooth
+    
+  body
+    @apply text-gray-900 antialiased
+    font-family: 'Inter', system-ui, sans-serif
+    background: linear-gradient(-45deg, #f8fafc, #e0f2fe, #dbeafe, #f1f5f9)
+    background-size: 400% 400%
+    animation: gradientShift 15s ease infinite
+    
+  @keyframes gradientShift
+    0%
+      background-position: 0% 50%
+    50%
+      background-position: 100% 50%
+    100%
+      background-position: 0% 50%
+    
+  h1, h2, h3, h4, h5, h6
+    @apply font-heading font-bold
+    
+@layer components
+  .btn-primary
+    @apply px-6 py-3 bg-primary-600 text-white rounded-lg font-semibold hover:bg-primary-700 transition-all duration-300 shadow-md hover:shadow-lg
+    
+  .btn-secondary
+    @apply px-6 py-3 bg-secondary-600 text-white rounded-lg font-semibold hover:bg-secondary-700 transition-all duration-300 shadow-md hover:shadow-lg
+    
+  .btn-outline
+    @apply px-6 py-3 border-2 border-primary-600 text-primary-600 rounded-lg font-semibold hover:bg-primary-600 hover:text-white transition-all duration-300
+    
+  .card
+    @apply bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300
+    
+  .section-container
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16
+    
+  .section-title
+    @apply text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4
+    
+  .section-subtitle
+    @apply text-xl text-gray-600 mb-12
+    
+  .nav-link
+    @apply text-gray-300 hover:text-white font-medium transition-colors duration-200 relative
+    
+  .nav-link::after
+    content: ''
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary-400 transition-all duration-300
+    
+  .nav-link:hover::after
+    @apply w-full
+    
+  .nav-link-mobile
+    @apply text-white hover:text-primary-400 font-medium transition-colors duration-200 py-2 px-4 rounded-lg hover:bg-gray-700
+    
+  .footer-link
+    @apply text-gray-400 hover:text-primary-400 transition-colors duration-200
+    
+  .social-link
+    @apply w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors duration-200
+
+@layer utilities
+  .hover\:scale-102:hover
+    transform: scale(1.02)
+    
+  .line-clamp-3
+    display: -webkit-box
+    -webkit-line-clamp: 3
+    -webkit-box-orient: vertical
+    overflow: hidden
+
 /* You can add global styles to this file, and also import other style files */

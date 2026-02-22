@@ -1,0 +1,73 @@
+{
+  "contactForm": {
+    "endpoint": "https://api.solucionesgm.com/contact",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "label": "Nombre completo",
+        "placeholder": "Tu nombre",
+        "required": true,
+        "minLength": 2,
+        "maxLength": 100
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "label": "Correo electrónico",
+        "placeholder": "tu@email.com",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "type": "tel",
+        "label": "Teléfono",
+        "placeholder": "+34 123 456 789",
+        "required": false
+      },
+      {
+        "name": "company",
+        "type": "text",
+        "label": "Empresa",
+        "placeholder": "Nombre de tu empresa",
+        "required": false
+      },
+      {
+        "name": "service",
+        "type": "select",
+        "label": "Servicio de interés",
+        "placeholder": "Selecciona un servicio",
+        "required": true,
+        "options": [
+          "Desarrollo Web",
+          "Desarrollo Móvil",
+          "E-commerce",
+          "Consultoría IT",
+          "Software a Medida",
+          "Inteligencia Artificial",
+          "Otro"
+        ]
+      },
+      {
+        "name": "message",
+        "type": "textarea",
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos sobre tu proyecto...",
+        "required": true,
+        "minLength": 10,
+        "maxLength": 1000,
+        "rows": 5
+      }
+    ],
+    "successMessage": "¡Gracias por contactarnos! Nos pondremos en contacto contigo pronto.",
+    "errorMessage": "Hubo un error al enviar el formulario. Por favor, intenta de nuevo o contáctanos por WhatsApp."
+  },
+  "newsletter": {
+    "endpoint": "https://api.solucionesgm.com/newsletter",
+    "method": "POST"
+  }
+}

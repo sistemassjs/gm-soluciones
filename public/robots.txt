@@ -1,0 +1,11 @@
+# robots.txt for SolucionesGM
+User-agent: *
+Allow: /
+
+# Disallow private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.solucionesgm.com/sitemap.xml
