@@ -88,7 +88,7 @@ import { ContactService } from '../core/services/contact.service';
 export class HeaderComponent {
   private dataService = inject(DataService);
   private contactService = inject(ContactService);
-  
+
   companyInfo = this.dataService.companyInfo;
   mobileMenuOpen = signal(false);
   isScrolled = signal(false);
